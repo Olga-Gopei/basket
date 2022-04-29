@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: blanchedalmond;
+}
+
+.logo{
+  text-align: center;
+  color:#421400;
+  margin: 40px;
+}
+
+h1{
+  font-size: 65px;
+  margin: 25px;
+}
+
+.imeges{
+  width: 225px;
+  height: auto;
+}
+
+.imegess{
+  height: 225px;
+}
+
+h3{
+  font-size: 35px;
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cotainer, .box{
+  background-color: white;
+}
+
+.cotainer{
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+}
+
+.box h2, p{
+padding: 15px;
+font-size: 25px;
+}
+
+button{
+  background: white;
+  color: red;
+  border-color: red;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+}
+
+button:hover{
+  background: red;
+  color: white;
+}
